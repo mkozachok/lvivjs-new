@@ -7,6 +7,7 @@ export function initializeFirebase() {
 
     const firebaseApp = admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
+      databaseURL: "https://lvivjs-a584b.firebaseio.com"
     });
     firestore = admin.firestore();
     resolve(firebaseApp);

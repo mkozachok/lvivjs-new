@@ -202,7 +202,7 @@
             data-route="home"
             data-path="pages/home-page.html"
           ></home-page>
-          <blog-page
+          <!-- <blog-page
             data-route="blog"
             data-path="pages/blog-page.html"
             route="[[subroute]]"
@@ -212,13 +212,13 @@
             data-path="pages/schedule-page.html"
             route="[[subroute]]"
             query-params="[[queryParams]]"
-          ></schedule-page>
+          ></schedule-page> -->
           <speakers-page
             data-route="speakers"
             data-path="pages/speakers-page.html"
             route="[[subroute]]"
           ></speakers-page>
-          <previous-speakers-page
+          <!-- <previous-speakers-page
             data-route="previous-speakers"
             data-path="pages/previous-speakers-page.html"
             route="[[subroute]]"
@@ -234,13 +234,13 @@
           <cod-page
             data-route="cod"
             data-path="pages/cod-page.html"
-          ></cod-page>
+          ></cod-page> --> -->
         </iron-lazy-pages>
 
       </app-header-layout>
     </app-drawer-layout>
 
-    <video-dialog
+    <!-- <video-dialog
       opened="[[ui.videoDialog.opened]]"
       video-title="[[ui.videoDialog.title]]"
       youtube-id="[[ui.videoDialog.youtubeId]]"
@@ -248,7 +248,7 @@
       exit-animation="fade-out-animation"
       disable-controls="[[!ui.videoDialog.disableControls]]"
       fit fixed-top
-    ></video-dialog>
+    ></video-dialog> -->
 
 
     <speaker-details
@@ -258,21 +258,21 @@
       no-cancel-on-outside-click="[[viewport.isPhone]]"
     ></speaker-details>
 
-    <previous-speaker-details
+    <!-- <previous-speaker-details
       opened="[[dialogs.previousSpeaker.isOpened]]"
       speaker="[[dialogs.previousSpeaker.data]]"
       with-backdrop="[[viewport.isTabletPlus]]"
       no-cancel-on-outside-click="[[viewport.isPhone]]"
-    ></previous-speaker-details>
-
+    ></previous-speaker-details> -->
+<!-- 
     <session-details
       opened="[[dialogs.session.isOpened]]"
       session="[[dialogs.session.data]]"
       with-backdrop="[[viewport.isTabletPlus]]"
       no-cancel-on-outside-click="[[viewport.isPhone]]"
-    ></session-details>
+    ></session-details> -->
 
-    <subscribe-dialog
+    <!-- <subscribe-dialog
       opened="[[dialogs.subscribe.isOpened]]"
       data="[[dialogs.subscribe.data]]"
       with-backdrop
@@ -284,7 +284,7 @@
       with-backdrop>
     </signin-dialog>
 
-    <hoverboard-analytics></hoverboard-analytics>
+    <hoverboard-analytics></hoverboard-analytics> -->
     <toast-element></toast-element>
   </template>
 

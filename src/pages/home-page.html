@@ -33,7 +33,8 @@
 
       .hero-logo {
         --iron-image-width: 100%;
-        max-width: 240px;
+        max-width: 300px;
+        padding-left: 50px;
       }
 
       .info-items {
@@ -118,7 +119,7 @@
         }
 
         .hero-logo {
-          max-width: 320px;
+          max-width: 380px;
         }
 
         .info-items {
@@ -133,22 +134,21 @@
 
     <hero-block
       id="hero"
-      background-image="{$ heroSettings.home.background.image $}"
       background-color="{$ heroSettings.home.background.color $}"
       font-color="{$ heroSettings.home.fontColor $}"
       active="[[active]]"
       hide-logo
     >
       <div class="home-content" layout vertical center>
-        <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
+        <plastic-image class="hero-logo" srcset="/images/JS-18-logo-vector.svg" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
-          <div class="info-item">{$ location.city $}. {$ dates $}</div>
+          <div class="info-item">{$ dates $}</div>
           <div class="info-item">{$ heroSettings.home.description $}</div>
         </div>
 
 
         <div class="action-buttons" layout horizontal center-justified wrap>
-          <paper-button
+          <!-- <paper-button
             on-tap="_playVideo"
             ga-on="click"
             ga-event-category="video"
@@ -168,7 +168,7 @@
           >
             <iron-icon icon="hoverboard:ticket"></iron-icon>
             {$ buyTicket $}
-          </paper-button>
+          </paper-button> -->
         </div>
 
         <div class="scroll-down" on-tap="_scrollNextBlock">
@@ -180,9 +180,9 @@
         </div>
       </div>
     </hero-block>
-    <about-block></about-block>
+    <!-- <about-block></about-block> -->
     <speakers-block></speakers-block>
-    <subscribe-block></subscribe-block>
+    <!-- <subscribe-block></subscribe-block>
     <tickets-block></tickets-block>
     <gallery-block></gallery-block>
     <about-organizer-block></about-organizer-block>
@@ -190,7 +190,7 @@
     <latest-posts-block></latest-posts-block>
     <map-block></map-block>
     <partners-block></partners-block>
-    <footer-block></footer-block>
+    <footer-block></footer-block> -->
   </template>
 
   <script>
