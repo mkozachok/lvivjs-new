@@ -2,7 +2,7 @@
   "title": "LvivJS! Season 2018",
   "description": "Get ready for LvivJS!",
   "image": "images/social-share.jpg",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "keywords": "event, LvivJS, lviv, js, developers, web",
   "dates": "1st of September, 2018",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
@@ -36,8 +36,8 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "LvivJS",
+          "url": "http://lvivjs.org.ua/",
           "newTab": true
         },
         {
