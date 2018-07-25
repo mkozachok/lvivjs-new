@@ -685,9 +685,9 @@
       "photoUrl" : "https://avatars1.githubusercontent.com/u/897523?s=400&v=4",
       "shortBio" : "",
       "socials" : [ {
-        "icon" : "",
-        "link" : "",
-        "name" : ""
+        "icon" : "twitter",
+        "link" : "http://twitter.com/jawache",
+        "name" : "Twitter"
       }, {
         "icon" : "",
         "link" : "",
