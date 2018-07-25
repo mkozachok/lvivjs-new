@@ -41,7 +41,7 @@
       .toolbar-logo {
         display: block;
         width: 150px;
-        height: 32px;
+        height: 42px;
         background-color: var(--default-primary-color);
         transition: background-color var(--animation);
         -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
@@ -196,7 +196,7 @@
         </div>
       </paper-menu-button>
 
-      <paper-menu-button
+      <!-- <paper-menu-button
         class="auth-menu"
         hidden$="[[!user.signedIn]]"
         vertical-align="top"
@@ -218,7 +218,7 @@
             <span class="profile-action" role="button" on-tap="signOut">{$ signOut $}</span>
           </div>
         </div>
-      </paper-menu-button>
+      </paper-menu-button> -->
 
       <paper-icon-button
         icon="hoverboard:account"
