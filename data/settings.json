@@ -51,9 +51,9 @@
       "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
       "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
       "background": {
-        "color": "#FFF"
+        "color": "#000"
       },
-      "fontColor": "#424242"
+      "fontColor": "#ffcc39"
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
