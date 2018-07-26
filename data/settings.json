@@ -105,11 +105,11 @@
     "pointer": {
       "latitude": 49.8515828,
       "longitude": 24.0518565,
-      "zoom": 5
+      "zoom": 14
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 49.845,
+      "longitude": 24.04
     },
     "description": "Клуб на !FESTrepublic"
   },
