@@ -68,7 +68,7 @@
   },
   "partners" : [ {
     "logos" : [ {
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
+      "logoUrl" : "../images/logos/JS-18-logo-vector-yellow.svg",
       "name" : "GDG Lviv",
       "url" : "https://plus.google.com/102444623953913144164"
     } ],
@@ -693,7 +693,7 @@
         "link" : "",
         "name" : ""
       } ],
-      "title" : "#tensorflow #javasceipt #ai #machinelearning"
+      "title" : "Everyday AI"
     },
     "sara_vieira" : {
       "badges" : [ {
@@ -724,7 +724,7 @@
         "link" : "",
         "name" : ""
       } ],
-      "title" : "#graphql #whyTho #whereisthemagic #letslearngraphql"
+      "title" : "I got 99 problems but GraphQL ain't one"
     },
     "sam_bellen" : {
       "badges" : [ {
@@ -755,7 +755,7 @@
         "link" : "",
         "name" : ""
       } ],
-      "title" : ""
+      "title" : "Channel your inner rockstar with the web audio API"
     }
   },
   "team" : [ {
