@@ -334,7 +334,7 @@
   "sessions" : {
     "101" : {
       "complexity" : "Beginner",
-      "description" : "Ive got a talk called 'Everyday AI' about how to build AI powered applications using APIs or by using the new tensorflow.js libraries.  It's in the format of demoing a bunch of applications I built and then after a quick demo I show you the "highlights" for how to build it yourself.  If I have enough time I also have a very quick intro to deep learning and the new tensorflow.js library   Basically, JavaScript gets into everything and now it's getting into AI, want to show people all the ways they can get involved!",
+      "description" : "Ive got a talk called 'Everyday AI' about how to build AI powered applications using APIs or by using the new tensorflow.js libraries.  It's in the format of demoing a bunch of applications I built and then after a quick demo I show you the 'highlights' for how to build it yourself.  If I have enough time I also have a very quick intro to deep learning and the new tensorflow.js library   Basically, JavaScript gets into everything and now it's getting into AI, want to show people all the ways they can get involved!",
       "language" : "English",
       "speakers" : [ "assim_hussain" ],
       "tags" : [ "AI" ],
