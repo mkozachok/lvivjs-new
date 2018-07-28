@@ -17,11 +17,13 @@
     "serve:prod": "cross-env BUILD_ENV=production gulp serve",
     "lint": "gulp lint",
     "pretest": "npm run lint",
-    "test": "echo \"No tests\""
+    "test": "echo \"No tests\"",
+    "up": "http-server ./build"
   },
   "dependencies": {
     "autotrack": "^2.4.1",
     "firebase-functions": "^2.0.0",
+    "http-server": "^0.11.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
